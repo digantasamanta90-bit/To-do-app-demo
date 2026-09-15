@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+h1{
+    height: 20%;
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.upper-container{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower-container{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.checklist{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-div{
+    height: 30px;
+    width: 80%;
+}
+
+Input{
+    height: 90%;
+    width: 100%;
+}
+
+.add-div{
+    height: 30px;
+    width: 10%;
+}
+
+.add-btn{
+    height: 100%;
+    width: 100%;
+}
+
+.check-btn{
+    height: 20%;
+    width: 10%;
+    background-color: aquamarine;
+}
+
+.task{
+    height: 20%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+}
+
+.edit-btn{
+    height: 20%;
+    width: 10%;
+    background-color: aquamarine;
+}
+
+.dlt-btn{
+    height: 20%;
+    width: 10%;
+    background-color: aquamarine;
+}
